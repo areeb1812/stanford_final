@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stanford University Inspired Layout</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #d32f2f;">
+        <div class="container">
+            <a class="navbar-brand text-white fw-bold" href="#">Stanford University</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link text-white fw-bold" href="#">Students</a></li>
+                    <li class="nav-item"><a class="nav-link text-white fw-bold" href="#">Faculty & Staff</a></li>
+                    <li class="nav-item"><a class="nav-link text-white fw-bold" href="#">Families</a></li>
+                    <li class="nav-item"><a class="nav-link text-white fw-bold" href="#">Visitors</a></li>
+                    <li class="nav-item"><a class="nav-link text-white fw-bold" href="#">Alumni</a></li>
+                </ul>
+                <!-- Search Form -->
+                <form class="d-flex ms-3">
+                    <input class="form-control form-control-sm" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-light btn-sm" type="submit">
+                        <i class="bi bi-search"></i> <!-- Using Bootstrap Icons for search -->
+                    </button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    
+    
+
+    <!-- Header Section with background image -->
+    <header>
+        <h1>Stanford</h1>
+    </header>
+
+    <section id="container2" class="top-banner">
+      <h1>A Societal Mission</h1>
+      <p>Stanford was founded almost 150 years ago on a bedrock of societal purpose. Our mission is to contribute to the world by educating students for lives of leadership and contribution with integrity; advancing fundamental knowledge and cultivating creativity; leading in pioneering research for effective clinical therapies; and accelerating solutions and amplifying their impact.</p>
+      <button class="stan-btn">More about Stanford</button>
+    </section>
+    <section id="container" class="top-banner">
+      <h1>Campus News</h1>
+      <p>Stories about people, research, and innovation across the Farm</p>
+      <div class="grid-container">
+        <div class="card">
+          <img src="pics/gettyimages-2192923816_0.webp">
+          <div class="content">
+            <div class="category">Earth & Climate</div>
+            <h2> What we know about the health effects of wildfire</h2>
+          </div>
+        </div>
+        <div class="card">
+          <img src="pics/GettyImages-1299730658.webp">
+          <div class="content">
+            <div class="category">Health & Medicine</div>
+            <h2>New AI model predicts cancer prognosis, response to treatment</h2>
+          </div>
+        </div>
+        <div class="card">
+          <img src="pics/Gettyimages-1211044075-2048x1364.webp">
+          <div class="content">
+            <div class="category">Economics</div>
+            <h2>Guaranteed income can lower household spending while reducing debt</h2>
+          </div>
+        </div>
+      </div>
+      <button class="stan-btn">More campus news</button>
+    </section>
+
+
+
+    <section id="container2" class="top-banner">
+      <h1>Academics</h1>
+      <p>Preparing students to make meaningful contributions to society as engaged citizens and leaders in a complex world</p>
+      <div class="grid-container">
+        <div class="card">
+          <img src="pics/20230418_Grayson_Armour_95A0681-2.webp">
+          <div class="content">
+            <div class="category"><h2>Undergraduate Education</h2></div>
+            <p>Rich learning experiences that provide a broad liberal arts foundation and deep subject-area expertise</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="pics/20220714Hopkins_Marine_Station_N6A7270-1-2048x1366.webp">
+          <div class="content">
+            <div class="category"><h2>Graduate Education</h2></div>
+            <p>Unsurpassed opportunities to participate in the advancement of entire fields of knowledge</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="pics/20211117_Elizabeth_Reese_N6A0441-2048x1366.webp">
+          <div class="content">
+            <div class="category"><h2>Driving impact</h2></div>
+            <p>Continuing adult education, executive and professional programs, and programs for K-12 students</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- Seven Schools Section -->
+<section id="seven-schools" class="container my-5">
+    <h2>Seven schools in which to pursue your passions</h2>
+
+    <div class="row my-4">
+        <div class="col">
+            <p class="school-item">Medicine</p>
+        </div>
+        <div class="col">
+            <p class="school-item">Law</p>
+        </div>
+        <div class="col">
+            <p class="school-item">Humanities & Sciences</p>
+        </div>
+        <div class="col">
+            <p class="school-item">Engineering</p>
+        </div>
+        <div class="col">
+            <p class="school-item">Education</p>
+        </div>
+        <div class="col">
+            <p class="school-item">Sustainability</p>
+        </div>
+        <div class="col">
+            <p class="school-item">Business</p>
+        </div>
+    </div>
+
+    <hr class="school-line">
+
+    <div>
+      <button class="stan-btn">More about academics</button>    </div>
+</section>
+
+    <!-- New Section with Background Image and Quote -->
+<section id="quote-section" class="container-fluid">
+    <div class="quote-container text-center">
+        <h2 class="quote-text">
+            “When I ‘decided’ to become a mathematician, it was not a decision. I could not do otherwise. You don’t decide to fall in love with somebody. It just happens.”
+        </h2>
+        <p class="quote-author">Tadashi Tokieda <br> Professor (Teaching) of Mathematics</p>
+        <!-- More Info Button -->
+        <div class="text-center">
+          <button class="stan-btn">More Info</button>        </div>
+    </div>
+</section>
+<!-- Research Section -->
+<section id="research" class="container-fluid">
+    <div class="research-container text-center">
+        <h2 class="research-heading">Research</h2>
+        <p class="research-subheading">Driving discoveries vital to our world, our health, and our intellectual life.</p>
+        
+        <!-- Information Row -->
+        <div class="row justify-content-center">
+            <div class="col-md-3 info-item">
+                <h4>15 Institutes</h4>
+                <p>Cross-disciplinary boundaries</p>
+            </div>
+            <div class="col-md-3 info-item">
+                <h4>20 Libraries</h4>
+                <p>Hold over 12 million items</p>
+            </div>
+            <div class="col-md-3 info-item">
+                <h4>$1.98 Billion</h4>
+                <p>Sponsored research budget</p>
+            </div>
+        </div>
+
+        <!-- More About Research Button -->
+        <div class="text-center mt-4">
+            <a href="#more-research" class="btn btn-danger">More About Research</a>
+        </div>
+    </div>
+</section>
+<!-- Upcoming Events Section -->
+<section id="upcoming-events" class="container-fluid py-5">
+    <div class="text-center mb-5">
+        <h2>Upcoming Events</h2>
+        <p>Join us for exciting events that bring our community together!</p>
+    </div>
+
+    <!-- Event Cards Row -->
+    <div class="row justify-content-center">
+        <!-- Event 1 -->
+        <div class="col-md-3 event-card mb-4">
+            <img src="pics/events1.jpg" class="img-fluid" alt="Event 1">
+            <div class="event-details">
+                <h5>Exhibition</h5>
+                <p class="event-time">March 20, 2025 | 10:00 AM</p>
+                <p class="event-description">Branner Library Monthly Book & Map Exhibit-Naturally Hazardous:Extreme Weather</p>
+            </div>
+        </div>
+
+        <!-- Event 2 -->
+        <div class="col-md-3 event-card mb-4">
+            <img src="pics/event2.jpg" class="img-fluid" alt="Event 2">
+            <div class="event-details">
+                <h5>Lecture/Presentation/Talk</h5>
+                <p class="event-time">April 15, 2025 | 2:00 PM</p>
+                <p class="event-description">Ron Alexander Memorial Lectures in Musicology: Lester Hu, UC Berkeley</p>
+            </div>
+        </div>
+
+        <!-- Event 3 -->
+        <div class="col-md-3 event-card mb-4">
+            <img src="pics/event3.jpg" class="img-fluid" alt="Event 3">
+            <div class="event-details">
+                <p class="event-time">May 5, 2025 | 9:00 AM</p>
+                <p class="event-description">Restoring Trust in American Elections:Challenges And Opportunities|Reimagining American Institutions</p>
+            </div>
+        </div>
+
+ 
+
+    <!-- More Events Button -->
+    <div class="text-center mt-5">
+        <a href="#" class="btn btn-danger btn-lg">More Events</a>
+    </div>
+</section>
+
+
+<!--health care section-->
+<section id="container2" class="top-banner">
+  <h1>Health Care</h1>
+  <p>Advancing human health through innovative research, education, and care</p>
+  <div class="grid-container">
+    <div class="card">
+      <img src="pics/Health-care-1.webp">
+      <div class="content">
+        <div class="category"><h2>Stanford Medicine</h2></div>
+        <p>Leading a worldwide revolution in precision health through biomedical research, education, and clinical enterprises</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="pics/Health-care-2-2048x1365.jpg">
+      <div class="content">
+        <div class="category"><h2>Stanford Health Care</h2></div>
+        <p>Leveraging expertise and advanced technology  to deliver unparalleled care for each patient’s unique needs</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="pics/Hero-3-2-2048x1362.webp">
+      <div class="content">
+        <div class="category"><h2>Stanford Children's Health</h2></div>
+        <p>The only health care network in the Bay Area – and one of the few in the country – exclusively dedicated to pediatric and obstetric care</p>
+      </div>
+    </div>
+  </div>
+  <button class="stan-btn">More About Health Care</button>
+</section>
+
+
+   
+<!-- Full Background Section -->
+<section id="full-background" class="container-fluid">
+    <div class="quote-container">
+        <blockquote class="quote-text">
+            “I think about all the projects that students throw themselves at quarter after quarter, just really expanding and stretching their minds. … Stanford allows you to experience evolutions of yourself.”
+        </blockquote>
+        <p class="quote-author">Yannie Tan<br>Class of 2024</p>
+        <a href="#" class="btn btn-danger">More</a>
+    </div>
+</section>
+
+
+<!--campus life section-->
+<section id="container2" class="top-banner">
+  <h1>Campus Life</h1>
+  <p>Building a vibrant community of creative and accomplished people from around the world</p>
+  <div class="grid-container">
+    <div class="card">
+      <img src="pics/Campus-life-1.webp">
+      <div class="content">
+        <div class="category"><h2>Student Life</h2></div>
+        <p>A residential campus with diverse housing, exceptional dining, and over 600 student organizations</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="pics/Campus-life-2.webp">
+      <div class="content">
+        <div class="category"><h2>Art & Culture</h2></div>
+        <p>A rich tradition of fostering creativity and a vibrant arts district on campus</p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="pics/Campus-life-3.webp">
+      <div class="content">
+        <div class="category"><h2>Recreation & Wellness</h2></div>
+        <p>State-of-the-art facilities and fitness programs to encourage movement and play</p>
+      </div>
+    </div>
+  </div>
+  <button class="stan-btn">More About Campus Life</button>
+</section>
+
+  
+<!-- Admission Section -->
+<section id="admission" class="container my-5">
+    <!-- Admission Title and Description -->
+    <h2 class="text-center">Admission</h2>
+    <p class="text-center">Offering extraordinary freedom to explore, to collaborate, and to challenge yourself.</p>
+    
+    <!-- Admission Image -->
+    <div class="text-center my-4">
+        <img src="pics/Maya-admission.webp" class="img-fluid" alt="Stanford Admission">
+    </div>
+
+    <!-- Explore Stanford Description -->
+    <div class="text-center">
+        <h3>Explore the possibilities of a Stanford education as you map out your college journey.</h3>
+        <p>We look for distinctive students who exhibit an abundance of energy and curiosity in their classes, activities, projects, research, and lives.</p>
+    </div>
+</section>
+<button class="stan-btn">More about admission</button>
+<img class="last-pic" src="pics/dish-andrew-lg-2048x753.jpg">
+
+    <!-- Social Media Icons -->
+    <div class="text-center mt-5">
+        <div>
+            <a href="https://www.facebook.com" target="_blank" class="social-icon">
+                <i class="fa fa-facebook-official" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.twitter.com" target="_blank" class="social-icon">
+                <i class="fa fa-twitter-square" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.instagram.com" target="_blank" class="social-icon">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.linkedin.com" target="_blank" class="social-icon">
+                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+            </a>
+        </div>
+    </div>
+</section>
+<!-- Schools Section -->
+<section id="schools" class="container my-5">
+
+
+    <div class="grid-container">
+        <!-- Column 1 -->
+        <div class="grid-item">
+            <h4>Schools</h4>
+            <ul class="list-unstyled">
+                <li>Business</li>
+                <li>Education</li>
+                <li>Engineering</li>
+                <li>Humanities & Sciences</li>
+                <li>Law</li>
+                <li>Medicine</li>
+                <li>Sustainability</li>
+            </ul>
+        </div>
+
+        <!-- Column 2 -->
+        <div class="grid-item">
+            <h4>Academics</h4>
+            <ul class="list-unstyled">
+                <li>Undergraduate Majors</li>
+                <li>Graduate Programs</li>
+                <li>Research</li>
+                <li>Research Centers A - to Z</li>
+                <li>Libraries</li>
+            </ul>
+        </div>
+
+        <!-- Column 3 -->
+        <div class="grid-item">
+            <h4>Health Care</h4>
+            <ul class="list-unstyled">
+                <li>Stanford Health Care</li>
+                <li>Stanford Children's Health</li>
+                <li>Online Learning</li>
+                <li>Stanford Online</li>
+            </ul>
+        </div>
+
+        <!-- Column 4 -->
+        <div class="grid-item">
+            <h4>About Stanford</h4>
+            <ul class="list-unstyled">
+                <li>Facts</li>
+                <li>History</li>
+                <li>Accreditation</li>
+            </ul>
+        </div>
+
+        <!-- Column 5 -->
+        <div class="grid-item">
+            <h4>Admission</h4>
+            <ul class="list-unstyled">
+                <li>Undergraduate</li>
+                <li>Graduate</li>
+                <li>Financial Aid</li>
+            </ul>
+        </div>
+
+        <!-- Column 6 -->
+        <div class="grid-item">
+            <h4>Resources</h4>
+            <ul class="list-unstyled">
+                <li>Campus Map</li>
+                <li>Community Engagement</li>
+                <li>Directory</li>
+                <li>Stanford Profiles</li>
+            </ul>
+        </div>
+
+        <!-- Column 7 -->
+        <div class="grid-item">
+            <h4>Research</h4>
+            <ul class="list-unstyled">
+                <li>Research Centers</li>
+                <li>Research Institutes</li>
+                <li>Research Funding</li>
+            </ul>
+        </div>
+
+        <!-- Column 8 -->
+        <div class="grid-item">
+            <h4>Libraries</h4>
+            <ul class="list-unstyled">
+                <li>Green Library</li>
+                <li>Physics Library</li>
+                <li>Engineering Library</li>
+            </ul>
+        </div>
+    </div>
+</section>
+<!-- Footer Section -->
+<footer id="footer" class="text-center py-4">
+    <div class="container">
+        <p class="footer-text">
+            Stanford University | Stanford Home | Maps & Directions | Search Stanford | Emergency Info
+        </p>
+        <p class="footer-text">
+            Terms of Use | Privacy | Copyright | Trademarks | Non-Discrimination | Accessibility
+        </p>
+        <p class="footer-text">
+            © Copyright Stanford University. Stanford, California 94305.
+        </p>
+    </div>
+</footer>
+</body>
+</html>
